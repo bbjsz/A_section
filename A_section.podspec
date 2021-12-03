@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   # 组件名 
   s.name             = 'A_section'
   # 发版版本号，每更新一次代码就改变一次版本号
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   # 组件概要
-  s.summary          = 'A short description of A_section.'
+  s.summary          = 'A组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
   # git 仓库首页的网页 url
-  s.homepage         = 'https://github.com/Hubert/A_section'
+  s.homepage         = 'https://github.com/hubert-svg/A_section'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hubert' => 'XuJobLife@163.com' }
@@ -54,6 +54,6 @@ TODO: Add long description of the pod here.
   # 这个 pods 还依赖于其他哪些 pods
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency "A_Category"
-  # s.dependency 'HandyFrame'
+   s.dependency 'B_Category'
 
 end

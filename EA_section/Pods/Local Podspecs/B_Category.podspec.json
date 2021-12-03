@@ -1,0 +1,27 @@
+{
+  "name": "B_Category",
+  "version": "1.0.0",
+  "summary": "A short description of B_Category.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hubert-svg/B_Category",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hubert": "XuJobLife@163.com"
+  },
+  "source": {
+    "git": "https://github.com/hubert-svg/B_Category.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "B_Category/Classes/**/**.{h,m}",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

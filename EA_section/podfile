@@ -1,0 +1,7 @@
+target 'EA_section' do
+
+pod "HandyFrame"
+
+pod "B_Category", :path => "../../B_Category"
+
+end
